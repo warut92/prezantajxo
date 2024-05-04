@@ -1,0 +1,80 @@
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/K2D/K2D.css');
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@6/fonts/Kanit/Kanit.css');
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import 'https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/Sarabun/Sarabun.css';
+body {
+  font-family: 'Ubuntu';
+}
+
+.remark-slide-content {
+  font-size: 30px;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
+
+.inverse {
+  background: #272822;
+  color: #777872;
+  text-shadow: 0 0 20px #333;
+}
+
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+    color: #000;
+  }
+.right-column {
+  width: 70%;
+  float: right;
+  padding-top: 1em;
+}
+
+/* size in alt */
+img[alt="50"] { width: 50px; }
+img[alt="100"] { width: 100px; }
+img[alt="200"] { width: 200px; }
+img[alt="200"] { width: 200px; }
+img[alt="300"] { width: 300px; }
+img[alt="400"] { width: 400px; }
+img[alt="500"] { width: 500px; }
+img[alt="600"] { width: 600px; }
+img[alt="700"] { width: 700px; }
+img[alt="800"] { width: 800px; }
+img[alt="900"] { width: 900px; }
+img[alt="1000"] { width: 1000px; }
+
+/* colors */
+s { color: green }
+em { color: blue }
+
+.red {
+  color: red;
+  font-size: 70px;
+}
+
+/* Thanks to http://www.partage-it.com/animez-vos-presentations-remark-js/  (in French) */
+.remark-slide-container {
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+}
+
+.remark-visible {
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.remark-fading {
+  z-index: 9;
+}
